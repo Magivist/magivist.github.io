@@ -1,0 +1,116 @@
+
+/* Base Styling */
+body {
+  padding: 0;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Fira Code', monospace;
+  line-height: 1.6;
+}
+
+.container {
+  margin: auto;
+  padding: 1rem;
+  margin: auto;
+  min-width: 720px;
+  max-width: 720px;
+  max-height: 1920px;
+}
+
+header, section{
+  margin-bottom: 2.5rem;
+}
+
+h1, h2 {
+  color: #e6e6e6;
+}
+
+tr {
+  text-align: left;
+}
+
+th {
+  padding-right: 20px;
+}
+
+header, .about, .project, .contact {
+  border-left: 3px solid #30363d;
+  padding-left: 1rem;
+}
+
+.name {
+  color: #d2a8ff;
+}
+
+.subtitle {
+  color: #8b949e;
+  font-style: italic;
+}
+
+
+.projects ul, .contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-name {
+  color: #79c0ff;
+  font-weight: bold;
+}
+
+.echo::before {
+  content: "echo";
+}
+
+.cat::before {
+  content: "cat";
+}
+
+
+.cat::before, .echo::before {
+  color: #ffa657;
+  margin-right: 0.5rem;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  border-top: 1px solid #30363d;
+  padding-top: .5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #8b949e;
+}
+
+/* Scrollbar styling (WebKit) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d1117; /* same as body bg */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #30363d;
+  border-radius: 5px;
+  border: 2px solid #0d1117;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #58a6ff;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #30363d #0d1117;
+}
+
