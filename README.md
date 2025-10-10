@@ -1,1 +1,1 @@
-# bentsuyumi.github.io
+# magivist.github.io
