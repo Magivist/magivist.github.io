@@ -1,4 +1,3 @@
-
 /* Base Styling */
 body {
   padding: 0;
@@ -17,7 +16,7 @@ body {
   max-height: 1920px;
 }
 
-header{
+header {
   margin: auto;
   text-align: center;
 }
@@ -26,11 +25,13 @@ hr {
   border-color: #30363d;
 }
 
-header, section{
+header,
+section {
   margin-bottom: 2.5rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #e6e6e6;
 }
 
@@ -42,7 +43,9 @@ th {
   padding-right: 20px;
 }
 
-.about, .project, .contact {
+.about,
+.project,
+.contact {
   border-left: 3px solid #30363d;
   padding-left: 1rem;
 }
@@ -57,7 +60,8 @@ th {
 }
 
 
-.project ul, .contact ul {
+.project ul,
+.contact ul {
   list-style: none;
   padding: 0;
 }
@@ -76,7 +80,8 @@ th {
 }
 
 
-.cat::before, .echo::before {
+.cat::before,
+.echo::before {
   color: #ffa657;
   margin-right: 0.5rem;
 }
@@ -103,7 +108,8 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0d1117; /* same as body bg */
+  background: #0d1117;
+  /* same as body bg */
 }
 
 ::-webkit-scrollbar-thumb {
