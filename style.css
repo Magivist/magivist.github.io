@@ -7,8 +7,6 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-areas: 'header' 'linebreak' 'section' 'linebreak' 'footer';
   margin: auto;
   padding: 1rem;
   width: 100%;
@@ -26,7 +24,8 @@ section {
 }
 
 hr {
-  border-color: #30363d;
+  border-top: #30363d;
+  margin-right: 1rem;
 }
 
 h1,
