@@ -45,6 +45,7 @@
 .tag--bash      { background-color: var(--tag-orange); }
 .tag--linux     { background-color: var(--tag-rose); }
 .tag--iec       { background-color: var(--tag-cyan); }
+.tag--embedded  { background-color: var(--tag-green); }
 
 body {
   padding: 0;
@@ -76,12 +77,20 @@ h2 {
   color: var(--font-color);
 }
 
+p {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
 tr {
   text-align: left;
 }
 
 th {
   padding-right: 20px;
+}
+
+hr {
+  border: 1px solid var(--border-color);
 }
 
 img {
