@@ -67,10 +67,14 @@ th {
 img {
   color: var(--name-color);
 
-  width: 2rem;
-  height: 2rem;
+  height: 100%;
+  width: 100%;
 
   padding: 0.5rem;
+}
+
+.invert {
+  filter: invert(95%);
 }
 
 section {
@@ -93,8 +97,10 @@ section {
 
 .project ul,
 .contact ul {
-  list-style: none;
+  list-style:square;
   padding: 0;
+  margin-left: 3rem;
+  text-align: left;
 }
 
 .project-name {
@@ -107,14 +113,33 @@ section {
   justify-content: center;
   gap: 1rem;
 
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.skill {
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--accent-1);
+
+  padding: 0rem 1rem 0rem 1rem;
+  margin: 0;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin: 2rem;
 }
 
 a {
   color: var(--link-color);
   text-decoration: none;
 
-  border: 1px solid var(--border-color);
+  height: 2rem;
+  width: 2rem;
 }
 
 a:hover {
