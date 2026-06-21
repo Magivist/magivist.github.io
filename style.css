@@ -13,18 +13,38 @@
 :root {
   --background-color: #121212;
   --surface-color:    #1E1C1A;
+  --command-color:    #2A2A28;
+  --border-color:     #25201E;
+  --box-shadow-color: rgba(0,0,0,0.6);
   --object-color:     #C9A77B;
   --name-color:       #B28967; 
   --font-color:       #E8E6E3;    
   --quote-color:      #8b949e;
   --link-color:       #86A38E;
-  --command-color:    #2A2A28;
-  --border-color:     #25201E;
-  --box-shadow-color: rgba(0,0,0,0.6);
   --accent-1:         #A67C50;    
   --accent-2:         #6F8B78;  
-  --danger:           #D9746B;
+  --tag-blue:         #4DA3FF;
+  --tag-cyan:         #35C6C6;
+  --tag-teal:         #2ABF9F;
+  --tag-green:        #5CC67A;
+  --tag-lime:         #C7E86A;
+  --tag-yellow:       #E6C85A;
+  --tag-orange:       #F29E59;
+  --tag-peach:        #F6B08A;
+  --tag-rose:         #E07A7A;
+  --tag-magenta:      #D37FD6;
+  --tag-purple:       #9B8EF7;
+  --tag-slate:        #6E7A86;
 }
+
+.tag--python    { background-color: var(--tag-blue); }
+.tag--c         { background-color: var(--tag-yellow); }
+.tag--cs        { background-color: var(--tag-purple); }
+.tag--java      { background-color: var(--tag-peach); }
+.tag--selenium  { background-color: var(--tag-slate); }
+.tag--bash      { background-color: var(--tag-orange); }
+.tag--linux     { background-color: var(--tag-rose); }
+.tag--iec       { background-color: var(--tag-cyan); }
 
 body {
   padding: 0;
@@ -117,9 +137,9 @@ section {
 }
 
 .skill {
+  color: var(--command-color);
   border: 1px solid var(--border-color);
   border-radius: 10px;
-  background-color: var(--accent-1);
 
   padding: 0rem 1rem 0rem 1rem;
   margin: 0;
